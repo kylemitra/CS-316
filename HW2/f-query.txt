@@ -1,0 +1,9 @@
+\project_{name} drinker
+\diff
+(\project_{drinker}
+((\project_{drinker,bar} frequents)
+\diff
+(\project_{drinker,bar} 
+(\project_{drinker, beer} likes 
+\join 
+\project_{bar,beer} serves))));

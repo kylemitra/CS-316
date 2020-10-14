@@ -1,0 +1,10 @@
+\project_{serves.bar,serves.beer} 
+(\select_{frequents.drinker='Coy'} 
+(frequents 
+\join_{frequents.bar=serves.bar}
+(\project_{serves.bar, serves.beer} serves
+\diff
+(\project_{S1.bar, S1.beer}
+(\rename_{S1:*} serves
+\join_{S1.bar=S2.bar and S1.price > S2.price}
+\rename_{S2:*} serves)))));

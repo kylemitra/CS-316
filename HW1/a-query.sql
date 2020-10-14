@@ -1,0 +1,1 @@
+select drinker from likes where beer='Amstel'

@@ -1,0 +1,1 @@
+(\project_{drinker} \select_{bar='James Joyce Pub'} frequents) \diff (\project_{drinker} \select_{bar='Satisfaction'} frequents);

@@ -1,0 +1,1 @@
+\project_{bar} ((\project_{beer} \select_{drinker='Dan'} likes) \join (\project_{beer,bar} \select_{price>=3.00} serves));
